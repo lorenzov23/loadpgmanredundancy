@@ -1,0 +1,17 @@
+alternable code				common code	
+			
+component name	component version	component name	component version
+			
+comp1	        vers1	                compon14	version14
+comp2	        vers2	                compon15	version15
+comp3	        vers3	                compon16	version16
+comp4	        vers4	                compon17	version17
+comp5	        vers5	                compon18	version18
+comp6	        vers6	                compon19	version19
+comp7	        vers7	                compon20	version20
+comp8	        vers8	                compon21	version21
+comp9	        vers9	                compon22	version22
+comp10	        vers10	                compon23	version23
+comp11	        vers11	                compon24	version24
+comp12	        vers12	                compon25	version25
+comp13	        vers13	                compon26	version26
