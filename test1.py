@@ -5,25 +5,34 @@
 #The function takes in 2 parameters. One is the list of the red
 #Algorithm flux
 
-ENV_NAME = "UL1"
+ENV_NAME = "UL3"
+#definition of the array containing components to be loaded
+array('Comp1','Comp2','Comp3','Comp4')
 
+from pprint import pprint
 
 fil = open("redlist.txt","r")
-appoggio = ''
-uscita = False
-while(fil.readline()!=""):
-	appoggio = fil.readline()
-	print appoggio
-	if (appoggio == ENV_NAME):
-		uscita = True
-	appoggio = ""
-fil.close()    
-if(uscita==True):
+result = False
+
+with open('redlist.txt') as f:
+	for line in f.readlines():
+		pprint(line.strip())
+		if ENV_NAME in line.strip():
+			result = True
+if result:
 	print("Redundant environment")
 else:
 	print("Non redundant environment")
+exit
 
-exit 
+
+
+
+
+
+
+
+
 
 
 
