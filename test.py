@@ -2,12 +2,11 @@
 
 # The function takes in 2 parameters. One is the list of the red
 # Algorithm flux
-from xmlrpclib import boolean
-
-from pprint import pprint
-import logging
 
 # logging.getLogger().setLevel(logging.DEBUG)
+import logging
+
+
 logging.getLogger().setLevel(logging.INFO)
 
 PATH = 'redlist.txt'
@@ -62,5 +61,6 @@ def contain_common_code(components_to_be_loaded):
 if __name__ == '__main__':
     # is_redundant(ENV_NAME, PATH)
     # pprint(get_components_list('components.txt'))
+    from pprint import pprint
     pprint(contain_common_code(['compon14', 'balbalaldsfs']))
 
