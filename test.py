@@ -100,24 +100,24 @@ if __name__ == '__main__':
     if a and not b:
 
         if c:
-            print "WARNING: YOU ARE GOING TO LOAD COMMON CODE ON NON REDUNDANT UAT SYSTEM"
+            print("WARNING: YOU ARE GOING TO LOAD COMMON CODE ON NON REDUNDANT UAT SYSTEM")
 
 
                 #check via ssh commands that the environments we are going to load on have been already scheduled for maintenance
 
     if not a and not b:
-            print "I am loading without any issue"
+        print("I am loading without any issue")
 
     if a and b:
         #going to execute maintenance operations
-        print "Going to execute maintenance operations"
+        print("Going to execute maintenance operations")
             #first individuate the machtype
             #second read the list of commands to be used to do maintenance
             #perform the commands
 
     if not a and b:
 
-            print "I am loading without any issue"
+        print("I am loading without any issue")
 
 
 
