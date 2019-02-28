@@ -102,7 +102,7 @@ if __name__ == '__main__':
         if c:
             print("WARNING: YOU ARE GOING TO LOAD COMMON CODE ON NON REDUNDANT UAT SYSTEM")
 
-
+        print("Common code on NON REDUNDANT SYSTEM BUT IS NOT UAT SO, GO AHEAD")
                 #check via ssh commands that the environments we are going to load on have been already scheduled for maintenance
 
     if not a and not b:
